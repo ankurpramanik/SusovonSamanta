@@ -1,0 +1,248 @@
+body {
+    font-family: 'MedievalSharp', cursive;
+}
+
+.logo {
+    padding: 0px 0px;
+    width: 50px;
+    height: 85px;
+    ;
+}
+
+.brandName {
+    font-family: 'Do Hyeon', sans-serif;
+    text-transform: uppercase;
+    color: rgb(28, 206, 209);
+}
+
+.nav_back {
+    background-color: #266A6B;
+    height: 70px;
+}
+
+.nav-item {
+    padding: 2px 20px;
+}
+
+.nav-item:hover {
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    transition: .3s ease-out;
+}
+
+.navbar-nav {
+    padding-right: 80px
+}
+
+.navbar-brand {
+    padding-left: 25px;
+}
+
+.front {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/front_hero.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 98vh;
+    width: 100%;
+}
+
+.content {
+    color: aliceblue;
+    position: relative;
+    float: left;
+    padding-top: 5cm;
+    padding-left: 17cm;
+}
+
+.front_heading {
+    position: relative;
+    letter-spacing: 4px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #65C6BB;
+}
+
+.typed-cursor {
+    opacity: 0;
+}
+
+.front_paragraph {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.youtube_button, .facebook_button, .twitter_button {
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    background: transparent;
+    border: #fff solid thin;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.front_connection {
+    margin-left: 5px;
+}
+
+.youtube_button:hover, .facebook_button:hover, .twitter_button:hover {
+    letter-spacing: 3px;
+    transition: 1s;
+}
+
+.youtube_button:focus, .facebook_button:focus, .twitter_button:focus {
+    box-shadow: none;
+}
+
+.youtube_button:hover {
+    background-color: rgb(160, 4, 4);
+}
+
+.facebook_button:hover {
+    background-color: rgb(37, 66, 129);
+}
+
+.twitter_button:hover {
+    background-color: rgb(35, 143, 214);
+}
+
+.linker:hover {
+    text-decoration: none;
+}
+
+.content>.row {
+    padding-bottom: 35px;
+}
+
+.about {
+    color: #65C6BB;
+    height: 95vh;
+}
+
+.aboutSusovon {
+    color: bisque;
+    letter-spacing: 2px;
+    background: none;
+}
+
+.aboutParagraph {
+    padding-top: 100px;
+}
+
+.btn_learnMore {
+    border: none;
+    /* border-radius: 500px; */
+    color: aliceblue;
+    transform: rotate(-360deg);
+    transition: .8s;
+}
+
+.btn_learnMore:focus {
+    box-shadow: none;
+}
+
+.btn_learnMore:hover {
+    transform: rotate(360deg);
+    transition: .8s;
+    color: #65C6BB;
+}
+
+.edu {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/education.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 85vh;
+    color: antiquewhite;
+}
+
+.educationHeader {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.proTop {
+    padding-top: 10px;
+}
+
+.pro {
+    margin-bottom: 95px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.percentage {
+    font-weight: bold;
+    color: black;
+}
+
+.edu img {
+    height: 400px;
+    width: 350px;
+}
+
+.passion {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/passion.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 95vh;
+    color: rgb(133, 250, 236);
+    letter-spacing: 4px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.card_row {
+    margin-top: 15px;
+}
+
+.img_card {
+    height: 200px;
+    width: 100%;
+}
+
+.card-text>a {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contact {
+    padding-top: 10px;
+    min-height: 50vh;
+    color: rgb(182, 243, 236);
+}
+
+.contactInfo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.foot {
+    font-family: 'Rubik', sans-serif;
+    min-height: 10vh;
+}
+
+@media(max-width:960px) {
+    .content {
+        padding-left: 0px;
+    }
+}
+
+@media(min-width:330px) and (max-width:1300px) {
+    .front {
+        height: 150vh;
+    }
+}
+
+@media(max-width:580px) {
+    .edu {
+        height: 160vh;
+    }
+}
+
+@media(min-width:330px) and (max-width:660px) {
+    .about {
+        height: 100vh;
+    }
+    .aboutParagraph {
+        padding-top: 70px;
+    }
+}
